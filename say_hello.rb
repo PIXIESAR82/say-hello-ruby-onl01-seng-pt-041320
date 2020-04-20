@@ -5,8 +5,8 @@ end
 
 say_hello("Gabriela")
 
-def say_hello(name="Gabriela", language="Ruby")
-  puts "Hello, #{name} #{language} programmer."
+def say_hello(language="Ruby", name)
+  puts "Hello, #{language} programmer!"
 end
 
 say_hello("Ruby Programmer")
