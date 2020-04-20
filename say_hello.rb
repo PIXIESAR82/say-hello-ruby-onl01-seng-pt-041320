@@ -6,7 +6,7 @@ end
 say_hello("Gabriela")
 
 def say_hello(language)
-  puts "Hello, Ruby Programmer"
+  puts "Hello, #{language}!"
 end
 
 say_hello("Ruby Programmer")
