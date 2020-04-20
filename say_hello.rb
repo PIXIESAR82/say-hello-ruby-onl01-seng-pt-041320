@@ -1,12 +1,12 @@
 
 def say_hello(name)
-  puts "Hello, #{name}!"
+  puts "Hello,#{name}!"
 end
 
 say_hello("Gabriela")
 
-def say_hello(language)
-  puts "Hello, #{language}!"
+def greeting(name="Gabriela", language="Ruby")
+  puts "Hello, #{language} programmer."
 end
 
 say_hello("Ruby Programmer")
